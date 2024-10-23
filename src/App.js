@@ -9,4 +9,5 @@ function App() {
 }
 
 //komentarz
+//komanetarz2
 export default App;
