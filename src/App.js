@@ -8,4 +8,5 @@ function App() {
   );
 }
 
+//komentarz
 export default App;
