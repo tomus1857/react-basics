@@ -1,8 +1,12 @@
 import './App.css';
+import ConditionalRendering from './components/ConditionalRendering';
+import Employee from './components/Employee';
+import EventHandling from './components/EventHandling';
 import Greeting from './components/Greeting';
 import HelloWorld from './components/HelloWorld';
 import MC, { FirstComponent as FC, SecondComponent as SC} from './components/MyComponent';
 import Student from './components/Student';
+import User from './components/User';
 import Welcome from './components/Welcome';
 
 function App() {
@@ -29,6 +33,10 @@ function App() {
           lastName = "Kobułka"
           email= "sadasd"
         />
+        <Employee />
+        <User />
+        <EventHandling />
+        <ConditionalRendering />
     </div>
   );
 }
